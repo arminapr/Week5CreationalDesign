@@ -1,7 +1,7 @@
 import { AbstractCalculatorModelFactory } from "./AbstractCalculatorModelFactory";
 import { RoundingCalculator } from "./roundingCalculator.model";
 
-export class StandardCalculatorModelFactory extends AbstractCalculatorModelFactory {
+export class RoundingCalculatorModelFactory extends AbstractCalculatorModelFactory {
   private precision: number;
 
   constructor(precision: number) {
